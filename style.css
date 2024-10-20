@@ -1,0 +1,43 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.light-mode {
+  background-color: #f8f9fa; /* Bootstrap light background */
+}
+
+.light-mode .form {
+  border: 2px solid black; /* Black border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Dark shadow */
+  border-radius: 8px; /* Optional: rounded corners */
+  padding: 20px; /* Optional: padding inside the form */
+}
+
+.dark-mode .form {
+  border: 2px solid white; /* White border */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5); /* White shadow */
+  border-radius: 8px; /* Optional: rounded corners */
+  padding: 20px; /* Optional: padding inside the form */
+}
+
